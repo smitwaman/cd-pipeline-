@@ -12,4 +12,4 @@ $ watch kubectl get pods -n argocd
 $ kubectl port-forward svc/argocd-server -n argocd 8080:443
 $ kubectl get pods -n argocd -l app.kubernetes.io/name=argocd-server -o name | cut -d'/' -f 2
 
-2 After login create your project using git repo, ns, k8s url,path to yaml file.
+2 After login create your project using git repo, ns, k8s url,path to yaml file for deployment and service.
