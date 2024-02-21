@@ -1,3 +1,4 @@
+git clone https://github.com/anthonyvetter/argocd-getting-started.git && cd argocd-getting-started
 sudo kubectl create namespace argocd
 sudo kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 sudo watch kubectl get pods -n argocd
