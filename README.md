@@ -1,4 +1,4 @@
-# cd-pipeline-
+# cd-pipeline
 Continuous Delivery Pipeline using dockerhub argocd and kubernetes 
 
 Installation of argocd on k8s.
